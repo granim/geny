@@ -17,6 +17,7 @@ get_header(); ?>
 			get_template_part( 'content', 'single' );
 
 			do_action( 'storefront_single_post_after' );
+                       
 
 		endwhile; // End of the loop. ?>
 
